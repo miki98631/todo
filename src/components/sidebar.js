@@ -4,7 +4,7 @@ const Sidebar = () => {
     return  (
         <div className="Sidebar">
             <ul className="SidebarList">
-                <h2 className="row">Task Manager</h2>
+                <h2>Task Manager</h2>
                 <li className="row">+ add list</li>
                 <li className="row">List 1</li>
                 <li className="row">List 2</li>
