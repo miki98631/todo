@@ -1,14 +1,14 @@
 import React from "react";
-import Modal from "./components/Modal";
 import Sidebar from "./components/sidebar";
+import Task from "./components/task";
 
-const Home = () => {
+const Content = () => {
     return (
         <>
-            <Modal />
+            <Task />
             <Sidebar />
         </>
     );
 };
 
-export default Home;
+export default Content;

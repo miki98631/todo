@@ -1,0 +1,24 @@
+/* White ver. ----------------------*/
+$mainColor : rgba(225,225,225,0.85);
+$secondaryColor : rgba(225,225,225,0.5);
+$tertiaryColor : rgba(225,225,225,0.25);
+$forthColor : rgba(225,225,225,0.1);
+
+/* Black ver. ----------------------*/
+$mainFont : rgba(0,0,0,0.85);
+$secondaryFont : rgba(0,0,0,0.6);
+$tertiaryFont : rgba(0,0,0,0.25);
+$forthFont : rgba(0,0,0,0.1);
+
+
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

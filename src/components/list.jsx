@@ -1,5 +1,5 @@
 import React from "react";
-import './css/list.css';
+import './styles/list.scss';
 
 const List = () => {
     return (

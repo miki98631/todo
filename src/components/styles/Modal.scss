@@ -1,0 +1,58 @@
+@import "App";
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $secondaryFont;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  width: 65%;
+  height: 60%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px $secondaryFont;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h2 {
+color: $mainFont;
+}
+
+.photoText {
+  color: $tertiaryFont;
+}
+
+.description {
+  color: $tertiaryFont;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 122, 255);
+  color: #fff;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0149a1;
+  }
+}

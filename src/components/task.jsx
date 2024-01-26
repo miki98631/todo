@@ -1,5 +1,5 @@
 import React from "react";
-import './css/task.css';
+import './styles/task.scss';
 
 const  Task = () => {
     return (
