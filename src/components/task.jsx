@@ -10,7 +10,11 @@ const  Task = () => {
                 </p>
             </div>
             <h1>Your title</h1>
-            <p className="description">description...</p>
+            <p className="yourDescription">description...</p>
+            <textarea
+                className="textInput"
+                placeholder=""
+            />
         </div>
     );
 };
