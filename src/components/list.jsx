@@ -5,12 +5,29 @@ const List = () => {
     return (
         <div className="container">
             <div className="box">
-                <div className="photo">+add photo</div>
+                <div className="photo">
+                    <p className="photoText">
+                        ＋add photo
+                    </p>
+                </div>
                 <div className="title">Title</div>
             </div>
 
             <div className="box">
-                <div className="photo">+add photo</div>
+                <div className="photo">
+                    <p className="photoText">
+                        ＋add photo
+                    </p>
+                </div>
+                <div className="title">Title</div>
+            </div>
+
+            <div className="box">
+                <div className="photo">
+                    <p className="photoText">
+                        ＋add photo
+                    </p>
+                </div>
                 <div className="title">Title</div>
             </div>
         </div>

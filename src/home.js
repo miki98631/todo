@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, {useState} from "react";
 import Sidebar from "./components/sidebar";
+import List from "./components/list";
 import Modal from "./components/Modal";
 
 const Home = () => {
@@ -16,23 +17,26 @@ const Home = () => {
     };
 
     return (
-        <div>
-            {isModalOpen && <div className="modal-overlay" onClick={handleModalClose} />}
-            {isModalOpen && (
-                <Modal
-                    onClose={handleModalClose}
-                    onCreate={handleCreate}
-                />
-            )}
+        <>
+            <div>
+                {isModalOpen && <div className="modal-overlay" onClick={handleModalClose} />}
+                {isModalOpen && (
+                    <Modal
+                        onClose={handleModalClose}
+                        onCreate={handleCreate}
+                    />
+                )}
 
-            {/* 作成したコンテンツを表示 */}
-            <ul>
-                {contents.map((content, index) => (
-                    <li key={index}>{content}</li>
-                ))}
-            </ul>
-            <Sidebar onCreateList={handleCreate} />
-        </div>
+                {/* 作成したコンテンツを表示 */}
+                <ul>
+                    {contents.map((content, index) => (
+                        <li key={index}>{content}</li>
+                    ))}
+                </ul>
+                <List />
+                <Sidebar onCreateList={handleCreate} />
+            </div>
+        </>
     );
 };
 
