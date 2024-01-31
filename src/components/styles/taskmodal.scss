@@ -1,0 +1,59 @@
+@import "App";
+
+.modal-overlay-task {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $secondaryFont;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-task {
+  background: #fff;
+  width: 65%;
+  height: 40%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px $secondaryFont;
+  position: relative;
+}
+
+.title-task {
+  width: 100%;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 30px;
+  color: $mainFont;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+
+  &::placeholder {
+    font-size: 36px;
+    font-weight: bold;
+    color: $tertiaryFont;
+  }
+}
+
+.datetime-task {
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+}
+
+.note-task {
+  width: 90%;
+  height: 30%;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  background-color: $secondaryColor;
+}
