@@ -10,6 +10,7 @@ const  Task = () => {
         setIsModalOpen(true);
     };
 
+
     return (
         <div className="container">
             <div className="photo">
@@ -17,7 +18,7 @@ const  Task = () => {
                     ＋add photo
                 </p>
             </div>
-            <h1>Your title</h1>
+            <h1>Your Title</h1>
             <p className="yourDescription">description...</p>
             <p className="addYourTask"  onClick={handleAddListClick}>+ task</p>
             <textarea
